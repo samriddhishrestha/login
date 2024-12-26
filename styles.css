@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  width: 20rem;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+.heading p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.heading h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.signin input {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 3rem;
+  border: 2px solid #dadada;
+}
+
+.tick {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.sign {
+  margin-top: 20px;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 3rem;
+  border: 2px solid #dadada;
+  background-color: #ea454c;
+}
+
+.googlee button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.googlee button {
+  margin-top: 20px;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 3rem;
+  border: 2px solid #dadada;
+  background-color: white;
+}
+
+.googlee img {
+  height: 20px;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.colorparagraph {
+  color: #ea454c;
+}
+
+.image img {
+  height: 100vh;
+}
